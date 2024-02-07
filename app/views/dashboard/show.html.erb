@@ -1,0 +1,9 @@
+<div class="w-full min-h-[100vh] bg-indigo-500 pt-36 px-8">
+  <div class="max-w-7xl w-full mx-auto">
+    <h1 class="text-4xl"> New Movies</h1>
+
+    <div class="grid md:grid-cols-4 gap-8 mt-8">
+      <%= render partial: "movie", collection: @movies %>
+    </div>
+  </div>
+</div>
